@@ -1,9 +1,32 @@
-# Intro
-This repo is for the purpose of collaboration the website project for [HELL Labs](http://helllabs.in)
-Start working for the front page of the website on `index.php` file. It already contains the necessary templating for a HTML5 website.
+This repo is for the purpose of collaboration the website project for [HELL Labs](http://helllabs.in).
+  _Start working for the front page of the website on `index.php` file. It already contains the necessary templating for a HTML5 website.__
 
 # How-to?
-Clone the repo by `git clone git@bitbucket.org:HELL_Labs/website.git` and start working on your version on your computer. Then push 'em.
+### Just starting up? following these steps to get going...
+---
+### Step 1
+Clone the repo by `git clone git@bitbucket.org:HELL_Labs/website.git`
+### Step 2
+Go to the specified directory by typing `cd website` in the shell
+### Step 3
+Work inside the `website` folder either via shell or using an IDE of your choice
+### Step 4
+After saving all your work, and goto `website` directory via the command `cd website`
+### Step 5
+- Add the edited files to the staging area by command `git add .`
+- Commit the files with a commit message by the command `git commit -m "your commit message"`
+- Push the final changes to the server via the command `git push`
 
-# Help?
-Ask in the corresponding slack channel to get help with the issues.
+#### Congratulations, you just successfully pushed your code to the server.
+### Editing existing file? Follow here...
+---
+- Go to your repo folder via `git website`
+- Pull down the latest changes from server via `git pull`
+- Start making changes to the files
+- Add, commit and push the files via the command `git add .` `git commit -m "commit message` and `git push` respectively
+
+### Have fun!
+
+
+# Issues? Need help?
+Ask in the corresponding slack channel to get help with the issues, or ask on our [official telegram support channel](https://t.me/joinchat/AAAAAAgrKwEnLHj_favrEA).
