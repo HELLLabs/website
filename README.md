@@ -1,8 +1,7 @@
 This repo is for the purpose of collaboration the website project for [HELL Labs](http://helllabs.in).
-  _Start working for the front page of the website on `index.php` file. It already contains the necessary templating for a HTML5 website.__
+  _Start working for the front page of the website on `index.php` file. It already contains the necessary templating for a HTML5 website._
 
-# How-to?
-### Just starting up? following these steps to get going...
+## Just starting up? following these steps to get going...
 ---
 ### Step 1
 Clone the repo by `git clone git@bitbucket.org:HELL_Labs/website.git`
@@ -18,7 +17,7 @@ After saving all your work, and goto `website` directory via the command `cd web
 - Push the final changes to the server via the command `git push`
 
 #### Congratulations, you just successfully pushed your code to the server.
-### Editing existing file? Follow here...
+## Editing existing file? Follow here...
 ---
 - Go to your repo folder via `git website`
 - Pull down the latest changes from server via `git pull`
