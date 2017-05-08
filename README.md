@@ -5,3 +5,5 @@ Start working for the front page of the website on `index.php` file. It already 
 # How-to?
 Clone the repo by `git clone git@bitbucket.org:HELL_Labs/website.git` and start working on your version on your computer. Then push 'em.
 
+# Help?
+Ask in the corresponding slack channel to get help with the issues.
