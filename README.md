@@ -12,8 +12,7 @@ Work inside the `website` folder either via shell or using an IDE of your choice
 ### Step 4
 After saving all your work, and goto `website` directory via the command `cd website`
 ### Step 5
-- Add the edited files to the staging area by command `git add .`
-- Commit the files with a commit message by the command `git commit -m "your commit message"`
+- Commit the files with a commit message by the command `git commit -am "your commit message"`
 - Push the final changes to the server via the command `git push`
 
 #### Congratulations, you just successfully pushed your code to the server.
@@ -22,7 +21,7 @@ After saving all your work, and goto `website` directory via the command `cd web
 - Go to your repo folder via `git website`
 - Pull down the latest changes from server via `git pull`
 - Start making changes to the files
-- Add, commit and push the files via the command `git add .` `git commit -m "commit message` and `git push` respectively
+- Add, commit and push the files via the command `git commit -am "commit message` and finally `git push`.
 
 ### Have fun!
 
