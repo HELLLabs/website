@@ -1,0 +1,39 @@
+
+  @media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+
+#link {
+position: relative;
+padding: 30px 40px 14px 40px;
+font-size: 20px;
+}
+
+#logo {
+position: relative;
+width: 80px;
+height: 80px;
+padding-top: 4px;
+ 
+}
+
+h1 {
+color: red;
+}
+
+
+ 
+   
+    
