@@ -12,6 +12,7 @@ Work inside the `website` folder either via shell or using an IDE of your choice
 ### Step 4
 After saving all your work, and goto `website` directory via the command `cd website`
 ### Step 5
+- Add all the changed files via the command `git add .`
 - Commit the files with a commit message by the command `git commit -am "your commit message"`
 - Push the final changes to the server via the command `git push`
 
