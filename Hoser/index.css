@@ -1,0 +1,22 @@
+.header{
+	background-color: #41c4F0;
+	color:white;
+}
+.select{
+	padding-top:40px;
+}
+select{
+	width:240px;
+	
+}
+.building{
+	size:30px;
+}
+.footer{
+	background-color: grey;
+	padding-top:60px;
+	padding-bottom:100p;
+}
+hr{
+	width: 20px;
+}
