@@ -1,0 +1,140 @@
+
+body{
+	height:100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: .9;
+  margin: auto;
+
+}
+.main{
+	background-image:url('../images/background.png');
+	background-position: center;
+	background-size: cover;
+	height:100%;
+	color:white;
+	position: relative;
+}
+.logo-placeholder {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 130px;
+	background-color: white;
+	height: 130px;
+}
+
+.logo-placeholder img {
+	margin: 5px;
+
+}
+
+h1{
+	font-size:61px;
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1.1;
+	margin-bottom: .4em;
+}
+
+.latest{
+	padding-top:250px;
+}
+
+.row p{
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 100;
+	font-size: 1.2em;
+}
+
+.content{
+	width: 50em;
+	line-height: 1.5em;
+}
+.nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-size: 1.8em;
+	display: block;
+	margin-top: 2em;
+}
+.nav ul li a{
+	margin-bottom: .5em;
+	display: inline-block;
+	width: auto;
+	color: black;
+	text-decoration: none;
+	border-bottom: .2em solid rgb(92, 198, 203);
+	line-height: .7em;
+	padding-top: .2em;
+}
+
+.nav ul li a:hover{
+	color: white;
+	background-color: rgb(92, 198, 203);
+}
+.product{
+	padding-top:70px;
+
+}
+.latest h1 {
+	padding-top:10px;
+}
+.btn{
+	width:150px;
+	font-size:20px;
+	padding:5px;
+}
+.btn:hover{
+	background-color: #51B4BA;
+	border-color: #51B4BA;
+}
+
+.Reserved {
+	font-size:10px;
+  word-spacing: 2px;
+  line-height:10px;
+}
+
+img {
+background-color: white;
+width:120px;
+height:120px;
+}
+
+.fa-facebook-square {
+color:  #3b5998;
+}
+
+.fa-twitter-square {
+color: #55acee;
+}
+
+.fa-youtube-play {
+color: #bb0000;
+}
+
+.fa-linkedin-square {
+color: #007bb5;
+}
+.fa-circle{
+	color:#21FF00;
+	 text-shadow:  2px 2px 20px  #21FF00 ;
+}
+
+#p1 {
+margin-bottom: 20px;
+margin-left: -10px;
+}
+
+#p2 {
+padding-bottom: 4px;
+margin-left: -10px;
+}
+
+#p3 {
+margin-top: -20px;
+margin-left: -10px;
+}
