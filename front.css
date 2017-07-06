@@ -13,5 +13,12 @@
         margin-left: -80px;
     }
 }
+.nav{
+    position:relative;
+}
+#slideShow{
+    margin :0px;
+    position: absolute;
+}
     
     
