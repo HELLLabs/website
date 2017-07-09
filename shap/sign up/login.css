@@ -1,0 +1,30 @@
+body{
+
+	top="0";
+	
+	background-image: url("fxfWgUA.jpg");
+}
+.article{
+	padding:40px;
+}
+
+.header{
+	padding-top:140px;
+}
+.help{
+	padding-top:20px;
+}
+.footer{
+	margin-top:10%;
+}
+.btn-block{
+	width:100%;
+	margin-left: .1%
+}
+.input{
+	width:87%;
+	margin-left:5%;
+}
+img{
+	position: 'relative';
+}
