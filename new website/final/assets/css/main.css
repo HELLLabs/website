@@ -133,7 +133,11 @@ h1{
 button {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 	font-size: 1.5em;
+<<<<<<< HEAD
 	width: 9em !important;
+=======
+	width: 6em !important;
+>>>>>>> a122b2471a1f2e3548bae815465bb29e8b6097e1
 }
 
 .content{
