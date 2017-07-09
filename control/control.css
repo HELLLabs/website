@@ -1,0 +1,126 @@
+body {
+margin: 0px;
+margin: auto;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+input:checked + .slider {
+  background-color: green;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.override{
+	text-align: center;
+        font-weight: 700;
+}
+
+body{
+	width:100%;
+
+}
+
+.header{
+	padding: 8px;
+	background-color: red;
+	color: white;
+	font-size:20px;
+}
+
+.fa-arrow-left {
+float: left;
+color: black;
+padding-top: 6px;
+}
+
+h3 { 
+padding-left: 30px;
+color: black;
+font-size: 38px;
+font-weight: 700;
+margin-top: -5px;
+}
+
+h3:hover {
+text-decoration: none;
+}
+
+
+.room{
+	padding-top:17px;
+        background-color: orange;
+}
+
+.control{
+	padding-top:17px;
+	padding-bottom:25px;
+        background-color: orange;
+}
+
+.panel-heading{
+	padding:48px;
+}
+
+.panel-default{
+	border-radius: 18px;
+	box-shadow: 0 0 3px black;
+}
+
+.panel-body{
+	padding:30px;
+        background-color: pink;
+
+}
+
+img{
+	margin-top: -20px;
+	margin-bottom: 15px;
+}
