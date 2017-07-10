@@ -1,6 +1,6 @@
 .row {
-	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */*/
+	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;      /* TWEENER - IE 10 */
 	display: -webkit-flex;
 	display: flex;
@@ -9,8 +9,8 @@
 }
 
 .row > [class*='col-'] {
-	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */*/
+	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;      /* TWEENER - IE 10 */
 	display: -webkit-flex;
 	display: flex;
@@ -95,8 +95,8 @@ h1{
 }
 .latest{
 	padding-top:250px;
-	/*-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-  /*-moz-box-flex: 1;         /* OLD - Firefox 19- */*/
+	/*-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
+  /*-moz-box-flex: 1;         /* OLD - Firefox 19- */
   -webkit-flex: 1;          /* Chrome */
   -ms-flex: 1;
 	flex: 1;
@@ -104,8 +104,8 @@ h1{
 }
 
 .site-data {
-	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */*/
+	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;      /* TWEENER - IE 10 */
 	display: -webkit-flex;
 	display: flex;
@@ -133,11 +133,7 @@ h1{
 button {
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 	font-size: 1.5em;
-<<<<<<< HEAD
-	width: 9em !important;
-=======
 	width: 6em !important;
->>>>>>> a122b2471a1f2e3548bae815465bb29e8b6097e1
 }
 
 .content{
