@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,400i|Roboto+Condensed:400,700|Roboto:300,300i,400,400i,700,700i');
 
 .row {
-	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6*/
-	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;      /* TWEENER - IE 10 */
-	display: -webkit-flex;
+	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6*/
+	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	/*display: -ms-flexbox;      /* TWEENER - IE 10 */
+	/*display: -webkit-flex;
 	display: flex;
 	/*flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;*/
@@ -61,6 +61,7 @@ body{
 	color: white;
 	overflow: hidden;
 	margin-left: -1px;
+	height: 100vh;
 }
 .social-icons{
 	list-style: none;
@@ -126,7 +127,7 @@ h1{
 	display: -ms-flexbox;      /* TWEENER - IE 10 */
 	display: -webkit-flex;
 	display: flex;
-	min-height: 100vh;
+	height: 100vh;
 	flex-direction: column;
 	-webkit-flex-direction: column;
 }
@@ -156,7 +157,8 @@ button {
 }
 
 .content{
-	width: 46em;
+	/*width: 46em;*/
+	padding-right: 4em;
 	position: relative;
 	top: 4em;
 }
