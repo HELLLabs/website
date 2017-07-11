@@ -138,6 +138,9 @@ h1{
 	font-size: small;
 	padding: 0;
 }
+.footer p {
+	width: 14em;
+}
 .foot-bold{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
