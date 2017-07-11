@@ -5,19 +5,23 @@
 		Smart is the new sexy | HELL Labs
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="assets/js/loader.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400|Arimo:400,400i" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/backanim.css">
+	<link rel="stylesheet" href="assets/css/loader.css">
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-10 main">
 				<div class="main-wrapper"></div>
+				<canvas id="canvas"></canvas>
+				<!-- <canvas id="sparks"></canvas> -->
+				<article class="overlay"></article>
 				<div class="row">
 					<div class="logo-placeholder">
 						<a href="#"><img class="pull-left" src="assets/images/trans_logo.png" alt="Logo"></a>
@@ -40,7 +44,7 @@
 
 					</article>
 					<br>
-						<button class="btn btn-default text-center">
+						<button class="btn btn-default cusButton">
 							<strong>Learn more</strong>
 						</button>
 					</div>
@@ -84,5 +88,7 @@
 		</div>
 	</div>
 </div>
+<script src="assets/js/anim.js"></script>
+<!-- <script src="assets/js/sparks.js"></script> -->
 </body>
 </html>
