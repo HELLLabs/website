@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,400i|Roboto+Condensed:400,700|Roboto:300,300i,400,400i,700,700i');
+
 .row {
-	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */*/
-	display: -ms-flexbox;      /* TWEENER - IE 10 */
-	display: -webkit-flex;
+	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6*/
+	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	/*display: -ms-flexbox;      /* TWEENER - IE 10 */
+	/*display: -webkit-flex;
 	display: flex;
-	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
+	/*flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;*/
 }
 
 .row > [class*='col-'] {
-	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */*/
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;      /* TWEENER - IE 10 */
 	display: -webkit-flex;
 	display: flex;
@@ -19,18 +21,31 @@
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.cusButton {
+	border-radius: 0;
+	background-color: rgba(0, 0, 0, 0);
+	border: 3px solid white;
+	color: white;
+}
+
+.cusButton:hover {
+	background-color: white !important;
+	color: black;
+	border: 3px solid white !important;
+}
 .main-wrapper{
 	/*background:black url('https://s-media-cache-ak0.pinimg.com/originals/bd/c6/8b/bdc68b5ba94f4dce7f5ea5661deb9c54.jpg');*/
-	background:black url('http://sf.co.ua/12/07/wallpaper-2099773.jpg');
-
-
+	/*background:black url('http://sf.co.ua/12/07/wallpaper-2099773.jpg');*/
+	background:black url('https://orig06.deviantart.net/aa8a/f/2014/053/e/2/free_space_galaxy_texture_by_lyshastra-d77gh54.jpg');
+	/*background:black url('http://2.bp.blogspot.com/-Lce6Rzw3R9g/VqnRVMN8UJI/AAAAAAAAIFE/awp5Qdi-EdQ/s1600/Post%2B-%2BJanuary%2B2016%2B%252815%2529%2B-%2B1.jpg');*/
 	background-position: center;
 	background-size: cover;
 	position: absolute;
   height: 110%;
   width: 110%;
   margin-left: -15px;
-	filter: blur(8px);
+	filter: grayscale(1);
 	left: -15px;
 	top: -15px;
 }
@@ -45,6 +60,8 @@ body{
 .main {
 	color: white;
 	overflow: hidden;
+	margin-left: -1px;
+	height: 100vh;
 }
 .social-icons{
 	list-style: none;
@@ -81,7 +98,8 @@ h1{
 	font-size:4em;
 	/*font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;*/
 	font-family: 'Arimo', sans-serif;
-  font-weight: 300;
+	/*font-family: 'Roboto', sans-serif;*/
+  font-weight: 400;
 	letter-spacing: .2px;
   line-height: 1.1;
 	margin-bottom: .2em;
@@ -94,9 +112,9 @@ h1{
 	font-size: 1.2em;
 }
 .latest{
-	padding-top:250px;
-	/*-webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-  /*-moz-box-flex: 1;         /* OLD - Firefox 19- */*/
+	-webkit-box-flex: 1;
+	-ms-box-flex: 1;     /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;         /* OLD - Firefox 19- */
   -webkit-flex: 1;          /* Chrome */
   -ms-flex: 1;
 	flex: 1;
@@ -104,47 +122,48 @@ h1{
 }
 
 .site-data {
-	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */*/
-	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */*/
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
 	display: -ms-flexbox;      /* TWEENER - IE 10 */
 	display: -webkit-flex;
 	display: flex;
-	min-height: 100vh;
+	height: 100vh;
 	flex-direction: column;
 	-webkit-flex-direction: column;
 }
 
 .footer{
-	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: small;
 	padding: 0;
 }
+.footer p {
+	width: 14em;
+}
 .foot-bold{
-	font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 
 .ops-icon {
 	font-size: medium;
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue" !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-weight: 700;
 	margin-bottom: 2em;
 }
 
 button {
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.5em;
-<<<<<<< HEAD
-	width: 9em !important;
-=======
 	width: 6em !important;
->>>>>>> a122b2471a1f2e3548bae815465bb29e8b6097e1
 }
 
 .content{
-	width: 46em;
+	/*width: 46em;*/
+	padding-right: 4em;
 	position: relative;
 	top: 4em;
-	left: 4em;
 }
 
 .nav ul{
@@ -152,7 +171,8 @@ button {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
 	font-size: 1.8em;
 	display: block;
 	margin-top: 2em;
@@ -182,7 +202,6 @@ button {
 .btn{
 	width:150px;
 	font-size:20px;
-	padding:5px;
 }
 .btn:hover{
 	background-color: #51B4BA;

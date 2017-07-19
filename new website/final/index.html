@@ -1,25 +1,30 @@
-				<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title>
-		HELLLabs.in
+		Smart is the new sexy | HELL Labs
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="assets/js/loader.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400|Arimo:400,400i" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/backanim.css">
+	<link rel="stylesheet" href="assets/css/loader.css">
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-10 main">
 				<div class="main-wrapper"></div>
+				<canvas id="canvas"></canvas>
+				<!-- <canvas id="sparks"></canvas> -->
+				<article class="overlay"></article>
 				<div class="row">
 					<div class="logo-placeholder">
-						<a href="#"><img class="pull-left" src="assets/images/trans_logo (1).png" alt="Logo"></a>
+						<a href="#"><img class="pull-left" src="assets/images/trans_logo.png" alt="Logo"></a>
 						<div style="clear: both;"></div>
 					</div>
 				</div>
@@ -39,7 +44,7 @@
 
 					</article>
 					<br>
-						<button class="btn btn-default text-center">
+						<button class="btn btn-default cusButton">
 							<strong>Learn more</strong>
 						</button>
 					</div>
@@ -67,20 +72,23 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-offset-1 col-sm-11 footer">
-						<p class="ops-icon"><i class="fa fa-circle"></i>&nbsp;&nbsp;All systems operational</p>
+						<p class="ops-icon"><i class="fa fa-circle" aria-hidden="true">&nbsp;</i>&nbsp;&nbsp;All systems operational</p>
 						<ul class="social-icons">
-							<li><a href="#"><span class="fa fa-facebook-square fa-2x" style="color: #3b5998;"></span></a></li>
-							<li><a href="#"><span class="fa fa-twitter-square fa-2x" style="color: #4099FF;"></span></a></li>
-							<li><a href="#"><span class="fa fa-youtube-play fa-2x" style="color: red; font-size: ;"></span></a></li>
-							<li><a href="#"><span class="fa fa-rss-square fa-2x" style="color: orange;"></span></a></li>
-							<li><a href="#"><span class="fa fa-github-square fa-2x" style="color: black;"></span></a></li>
+							<li><a href="#"><span aria-hidden="true" class="fa fa-facebook-square fa-2x" style="color: #3b5998;">&nbsp;</span></a></li>
+							<li><a href="#"><span aria-hidden="true" class="fa fa-twitter-square fa-2x" style="color: #4099FF;">&nbsp;</span></a></li>
+							<li><a href="#"><span aria-hidden="true" class="fa fa-youtube-play fa-2x" style="color: red;">&nbsp;</span></a></li>
+							<li><a href="#"><span aria-hidden="true" class="fa fa-rss-square fa-2x" style="color: orange;">&nbsp;</span></a></li>
+							<li><a href="#"><span aria-hidden="true" class="fa fa-github-square fa-2x" style="color: black;">&nbsp;</span></a></li>
 						</ul>
-						<p>&copy; <span class="foot-bold">HELL Labs</span>, LLP - 2018<br>All rights reserved.</p>
+						<p>&copy; <span class="foot-bold">HELL Labs</span>, LLP - 2018. All rights reserved.</p>
 
 
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+<script src="assets/js/anim.js"></script>
+<!-- <script src="assets/js/sparks.js"></script> -->
 </body>
 </html>
