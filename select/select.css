@@ -1,0 +1,12 @@
+.header{
+  padding:10px;
+  background-color: red;
+  color:white;
+  font-size:20px;
+}
+#newDropdownMenu{
+  width:90%;
+}
+#mainMenu{
+  width:90%;
+}
