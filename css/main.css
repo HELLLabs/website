@@ -393,7 +393,7 @@ li {
 @media only screen and (max-width: 600px) {
 
   .main-container header h1:first-child {
-    word-spacing: 7em;
+    word-spacing: 10em;
   }
 
   .body {
