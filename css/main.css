@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i');
+
+body {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /*background-color: #D90429;*/
+	background-image: linear-gradient(-180deg, #D90429 0%, #EF233C 100%);
+  -webkit-flex-direction: column;
+  flex-direction: column;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+.back-image {
+	/*background: rgba(0, 0, 0, 0) url("../img/slides/s0.jpg") no-repeat center top;*/
+	z-index: -1;
+	opacity: .1;
+	background-size: cover;
+	filter: grayscale(1);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+	position: relative;
+}
+
+figure {
+  margin: 0;
+}
+
+.feature-text {
+	color: #FCBF49;
+}
+
+.header {
+  height: 10%;
+}
+
+.header img {
+	display: -webkit-flex;
+  display: flex;
+  width: auto;
+  height: 4em;
+  background-color: #FFFFFF;
+  box-shadow: 0 .3125em .875em 0 rgba(0,0,0,0.50);
+  padding: 1.8em .5em .5em .5em;
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 6em;
+	font-weight: 700;
+	line-height: 1em;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	color: white;
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-left: 13%;
+	width: 70%;
+	font-weight: normal;
+}
+
+button {
+	background-color: transparent;
+	border: solid .2em #FF9F1C;
+	color: #FF9F1C;
+	text-transform: uppercase;
+	padding: .4em 1em;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-left: 13%;
+	margin-top: .5em;
+}
+
+button:hover {
+	color: black;
+	background-color: #FF9F1C;
+	/*box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.31);*/
+}
+
+.footer-menu {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	text-transform: uppercase;
+	height: 3.5em;
+	background: #D90429;
+	box-shadow: 0 -2px 18px 0 rgba(0,0,0,0.50);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.footwrapper {
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+nav ul li {
+  display: -webkit-flex;
+  display: inline-flex;
+  padding: 0em 1em;
+	list-style: none;
+}
+
+nav ul li:last-child {
+	padding-right: 0;
+}
+
+li {
+	font-size: .9em;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.main {
+	padding: 2em 0;
+}
+
+.main-container {
+	display: flex;
+	align-items: center;
+	height: 80vh;
+}
+
+.footer-menu a {
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.footer-menu a:hover {
+	color: #FCBF49;
+	cursor: pointer;
+}
+
+.footer-logo {
+	display: -webkit-flex;
+  display: inline-flex;
+  background-color: white;
+  flex-direction: column;
+	margin-left: -12em;
+	padding-left: 12em;
+	padding-right: .7em;
+}
+
+.footer-logo img {
+	width: 8em;
+	margin: auto 0;
+}
+
+.footer-menu nav {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	visibility: visible;
+}
+
+.active {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #D90429;
+  font-size: 36px;
+}
+
+/* style for mobile menu */
+.mobile-menu {
+	font-size: 2em;
+	cursor: pointer;
+	background-color: #D90429;
+	display: block;
+	color: white;
+	padding: .2em 1em;
+	position: absolute;
+	right: 0;
+	visibility: hidden;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.275em;
+  font-weight: 900;
+  font-size: 5em;
+	text-transform: capitalize;
+}
+
+.overlay a {
+  padding: .3em;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #D90429;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  font-size: 5em;
+}
+
+.mobile-menu {
+	font-size: 2em;
+	cursor: pointer;
+	background-color: #D90429;
+	display: block;
+	color: white;
+	padding: .2em 1em;
+	position: absolute;
+	right: 0;
+	visibility: hidden;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.overlay-content {
+  position: absolute;
+	margin: 0;
+	top: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 5em;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.overlay a {
+  padding: .2em .3em;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #D90429;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.footer-menu nav {
+		visibility: hidden;
+	}
+  .main-container header h1:first-child {
+    word-spacing: 10em;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+	.header {
+    width: auto;
+    height: 10%;
+	}
+
+	h1 {
+		font-size: 3.2em;
+		line-height: 1em;
+	}
+
+	.main-container {
+		display: flex;
+		padding: .1em .1em;
+		height: 80vh;
+	}
+
+  .main-container header h1:first-child {
+    word-spacing: normal;
+  }
+
+	.footer-menu {
+		width:100%;
+		background: white;
+	}
+
+	button {
+		margin-bottom: 4em;
+		margin-left: 2em;
+    margin-left: 13%;
+	}
+
+  .active {
+  	display: none;
+  }
+
+  .overlay a {
+  	font-size: .3em
+  }
+
+  .overlay .closebtn {
+  	font-size: 3em;
+  	top: .2em;
+  	right: 5%;
+  	font-weight: 900;
+		z-index: 2;
+		position: absolute;
+  }
+
+ .nav {
+		display: none;
+ }
+
+ .mobile-menu {
+		visibility: visible;
+		background: #D90429;
+	}
+	.footer-menu nav {
+		visibility: hidden;
+	}
+  p {
+    width: 80%;
+  }
+
+}
+
+/*end */
+@media only screen and (max-width: 800px) {
+	.footer-menu nav {
+		visibility: hidden;
+	}
+  p {
+    width: 100%;
+    margin-left: 0;
+  }
+  button {
+    margin-left: 0;
+  }
+  .main-container header h1:first-child {
+    word-spacing: 10em;
+  }
+  .main-container {
+    display: flex;
+    padding: .1em .1em;
+    height: 90%;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .main-container header h1:first-child {
+    word-spacing: 7em;
+  }
+
+  .body {
+    overflow-x: hidden;
+  }
+
+  p {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h1 {
+		font-size: 2.5em;
+		line-height: 1em;
+	}
+
+  button {
+    margin-left: 0;
+  }
+	.main-container {
+		display: flex;
+		padding: .1em .1em;
+		height: 90%;
+	}
+
+}
