@@ -1,14 +1,5 @@
-# The humans responsible & technology colophon
-
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+    Anish K Verma -- front end developer
+    Anmol Gupta -- front end developer
+    Adarsh Pathak -- front end designer & developer

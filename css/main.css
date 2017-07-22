@@ -300,16 +300,6 @@ li {
 }
 
 
-@media only screen and (max-width: 1024px) {
-	.footer-menu nav {
-		visibility: hidden;
-	}
-  .main-container header h1:first-child {
-    word-spacing: 10em;
-  }
-
-}
-
 @media only screen and (max-width: 1000px) {
 	.header {
     width: auto;
