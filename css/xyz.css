@@ -7,19 +7,28 @@
 .header{
 	display: inline;
 }
+.logo{
+	float: left;
+}
+.top{
+	color: #000000;
+	font-size: 2.2em;
+	font-weight: 700;
+}
 
 h1{
-	font-size: 7em;
+	font-size: 6rem;
+	font-family: Georgia;
 	text-align: left;
 	font-weight: 700;
 	line-height: 1em;
-	margin-left:8.666%;
+	margin-left:8.66%;
+	font-family: 'Montserrat',sans-serif;
 }
 p{
 	width: 65%;
 	font-size: 1em;
-	
-	text-align: center;
+	text-align: left;
 	line-height: 1em;
 	margin-left: 13%;
 }
