@@ -420,3 +420,64 @@ li {
 	}
 
 }
+/*style for all pages*/
+#c1 {
+	display: -webkit-flex;
+  display: flex;
+  width: auto;
+  height: 4em;
+  background-color: #FFFFFF;
+  box-shadow: 0 .3125em .875em 0 rgba(0,0,0,0.50);
+  padding: .5em;
+	cursor: pointer;
+	transition: .4s;
+}
+
+
+#c1:hover {
+	display: -webkit-flex;
+  display: flex;
+  width: auto;
+  height: 4em;
+  background-color: #FFFFFF;
+  box-shadow: 0 .3125em .875em 0 rgba(0,0,0,0.50);
+  padding: 1.8em .5em .5em .5em;
+	cursor: pointer;
+	transition: .4s;
+}
+
+
+/*------------------------------*/
+
+
+
+
+/*style for About us page */
+
+
+
+
+
+
+
+
+
+
+
+/*_________________________________________________________*/
+
+
+/*style for Contact us page */
+
+ 
+
+
+
+
+
+
+
+
+
+
+/*_________________________________________________________*/
