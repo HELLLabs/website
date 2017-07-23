@@ -469,9 +469,18 @@ li {
 
 /*style for Contact us page */
 
- 
+h3#c2 {
+	font-size: 2em;
+	margin-left: 13%;
+}
 
+h1#c3 {
+	font-size: 8em;
+}
 
+p#c4 {
+	font-size: 1em;
+}
 
 
 
