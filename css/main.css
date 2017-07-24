@@ -214,7 +214,7 @@ li {
 .overlay-content {
   position: relative;
   top: 15%;
-  width: 100%;
+   width: 100%;
   text-align: center;
   margin-top: 1.275em;
   font-weight: 900;
@@ -421,7 +421,46 @@ li {
 
 }
 
+h1{
+	font-size: 7rem;
+	font-family: Georgia;
+	text-align: left;
+	font-weight: 800;
+	line-height: 1em;
+	margin-left:8%;
+	font-family: 'Montserrat',sans-serif;
+}
+p{
+	width: 65%;
+	font-size: 1em;
+	text-align: left;
+	line-height: 1em;
+	margin-left: 23%;
+}
+.abc{
+	text-align: left;
+	width: 25%;
+	float: left;
+	padding: 1em;
+	margin-left: 8.66%;
+	display: inline-block;
+}
+.about-btn{
+	margin-left: 23%;
 
+}
+.about{
+	width: 75%;
+	float: left;
+	padding: 1em;
+}
+.about-container{
+	width: 65%;
+	margin-left: 23%;
+}
+.about-btn{
+	margin-left: 23%;
+}
 
 /*style for About us page */
 
