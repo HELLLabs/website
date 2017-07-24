@@ -421,6 +421,11 @@ li {
 
 }
 /*style for all pages*/
+
+.body {
+	background-image: linear-gradient(-180deg, #F0F0F0 0%, #FFFFFF 100%);
+}
+
 #c1 {
 	display: -webkit-flex;
   display: flex;
@@ -446,9 +451,10 @@ li {
 	transition: .4s;
 }
 
-body#pages {
-	background: gray;
+.mc1 {
+	margin-top: 15%;
 }
+
 
 /*------------------------------*/
 
@@ -467,29 +473,113 @@ body#pages {
 
 
 
-/*_________________________________________________________*/
-
+/*_________________________________________________________________________*/
 
 /*style for Contact us page */
 
-h3.c2 {
-	font-size: 2em;
-	margin-left: 13%;
+.c2{
+	
+	width: 80%;
+	height: auto;
+	float: left;
 }
 
-h1.c3 {
+.c3{
+	
+	width: 20%;
+	height: auto;
+	float: left;
+	padding: 2em;
+	margin-top: 1%;
+}
+
+.c4{
+	
+	width: 65%;
+	height: auto;
+	padding: 1em;
+	margin-left: 29%;
+	margin-top: 15%;
+}
+
+.c2 h1 {
 	font-size: 8em;
+	color: #D90429;
 }
 
-p.c4 {
+.c3 p {
 	font-size: 1em;
+	margin-left: 0;
+	color: black;
+}
+
+.c4 p {
+	font-size: 1em;
+	color: black;
+	margin-left: 0;
+	width: auto;
+}
+
+        /* css for buttons */
+.cbtn {
+      margin-bottom: 6%;
+      width: 30%;
+      margin-left: 25%;
+
 }
 
 
 
+.cbtn1 {
+	background-color: transparent;
+	border: solid .2em orange;
+	color: orange;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: .4em 1em;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-top: .5em;
+}
+
+.cbtn2 {
+	background-color: transparent;
+	border: solid .2em #D90429;
+	color: #D90429;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: .4em 1em;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-top: .5em;
+}
 
 
+.cbtn2:hover {
+	color: yellow;
+	background-color: transparent;
+}
+
+.cbtn2:active {
+	color: orange;
+	background-color: transparent;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cbtn1:hover {
+	color: #D90429;
+	background-color: transparent;
+}
+
+.cbtn1:active {
+	color: #D90429;
+	background-color: transparent;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+   
+   /*---------------------------------------*/
 
 
-
-/*_________________________________________________________*/
+/*____________________________________________________________________________________-*/
