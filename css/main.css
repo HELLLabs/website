@@ -463,13 +463,31 @@ li {
 
 /*style for About us page */
 
+.a1 {
+	font-size: 8em;
+	color: #D90429;
+	width: 60%;
+	height: auto;
+}
 
+p.a2 {
+	color: black;
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 2em;
+	margin-top: 1%;
+}
 
+p.a3 {
+	color: black;
+	width: 65%;
+	height: auto;
+	padding: 1em;
+	margin-left: 29%;
+	margin-top: -10%
 
-
-
-
-
+}
 
 
 
