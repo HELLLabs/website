@@ -477,64 +477,89 @@ li {
 
 /*style for Contact us page */
 
-.c2{
-	
+
+.tag {
+	font-size: 8em;
+	color: #D90429;
 	width: 80%;
 	height: auto;
-	float: left;
-}
+}	
 
-.c3{
+.loc {
 	
-	width: 20%;
+	width: 30%;
 	height: auto;
 	float: left;
 	padding: 2em;
 	margin-top: 1%;
 }
 
-.c4{
+/*+++++++++++++++++===form section====++++++++++++++++++*/
+
+.formsection {
 	
-	width: 65%;
+	width: 65% auto;
 	height: auto;
 	padding: 1em;
 	margin-left: 29%;
-	margin-top: 15%;
+	margin-top: -10%
+
 }
 
-.c2 h1 {
-	font-size: 8em;
-	color: #D90429;
-}
-
-.c3 p {
+ .formsection form {
+	background: grey;
 	font-size: 1em;
-	margin-left: 0;
 	color: black;
+	margin-left: 0;
+	width: auto;
+	min-height: 20%;
+	border: solid .2em black;
+	margin-bottom: 4%;
 }
 
-.c4 p {
+#email {
+	width: 20em;
+	margin-left: 1.25em;
+	margin-top: 1%;
+}
+
+#name , #phone {
+	width: 20em;
+	margin-left: 1em;
+	margin-top: 1%;
+}
+
+.formsection p {
 	font-size: 1em;
 	color: black;
 	margin-left: 0;
 	width: auto;
 }
 
-        /* css for buttons */
-.cbtn {
-      margin-bottom: 6%;
-      width: 30%;
-      margin-left: 25%;
-
+#message {
+    margin-top: 1%;
+    display: flex;
+    width: 20em;
+    height: auto;
+    float: right;
+    margin-right: 36%;
 }
 
+
+
+ /*-----------------css for buttons---------------------*/
+.cbtn {
+    margin-bottom: 1em;
+    margin-left: 6%;
+    display: inline-flex;
+    margin-top: 1em;
+}
 
 
 .cbtn1 {
 	background-color: transparent;
 	border: solid .2em orange;
 	color: orange;
-	font-size: 2em;
 	text-transform: uppercase;
 	padding: .4em 1em;
 	font-weight: bolder;
@@ -546,7 +571,6 @@ li {
 	background-color: transparent;
 	border: solid .2em #D90429;
 	color: #D90429;
-	font-size: 2em;
 	text-transform: uppercase;
 	padding: .4em 1em;
 	font-weight: bolder;
@@ -556,7 +580,7 @@ li {
 
 
 .cbtn2:hover {
-	color: yellow;
+	color: orange;
 	background-color: transparent;
 }
 
@@ -578,8 +602,31 @@ li {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-   
-   /*---------------------------------------*/
+  
+   /*--------------------------------------------------*/
 
+/*================location section================*/
+.loc i {
+	
+	margin-right: 1em;
+}
 
+#map {
+	width: 15em;
+	height: 15em;
+	margin-left: 1%;
+	background: black;
+	margin-top: 1%;
+}
+
+.loc p {
+	margin-left: 1%;
+}
+
+.list-group-item {
+	color: black;
+	text-decoration: none;
+}
+
+/*================================================*/
 /*____________________________________________________________________________________-*/
