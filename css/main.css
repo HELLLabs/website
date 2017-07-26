@@ -420,3 +420,169 @@ li {
 	}
 
 }
+<<<<<<< HEAD
+=======
+/*style for all pages*/
+
+.body {
+	background-image: linear-gradient(-180deg, #F0F0F0 0%, #FFFFFF 100%);
+}
+
+#c1 {
+	display: -webkit-flex;
+  display: flex;
+  width: auto;
+  height: 4em;
+  background-color: #FFFFFF;
+  box-shadow: 0 .3125em .875em 0 rgba(0,0,0,0.50);
+  padding: .5em;
+	cursor: pointer;
+	transition: .4s;
+}
+
+
+#c1:hover {
+	display: -webkit-flex;
+  display: flex;
+  width: auto;
+  height: 4em;
+  background-color: #FFFFFF;
+  box-shadow: 0 .3125em .875em 0 rgba(0,0,0,0.50);
+  padding: 1.8em .5em .5em .5em;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.mc1 {
+	margin-top: 15%;
+}
+
+
+/*------------------------------*/
+
+
+
+
+/*style for About us page */
+
+
+
+
+
+
+
+
+
+
+
+/*_________________________________________________________________________*/
+
+/*style for Contact us page */
+
+.c2{
+	
+	width: 80%;
+	height: auto;
+	float: left;
+}
+
+.c3{
+	
+	width: 20%;
+	height: auto;
+	float: left;
+	padding: 2em;
+	margin-top: 1%;
+}
+
+.c4{
+	
+	width: 65%;
+	height: auto;
+	padding: 1em;
+	margin-left: 29%;
+	margin-top: 15%;
+}
+
+.c2 h1 {
+	font-size: 8em;
+	color: #D90429;
+}
+
+.c3 p {
+	font-size: 1em;
+	margin-left: 0;
+	color: black;
+}
+
+.c4 p {
+	font-size: 1em;
+	color: black;
+	margin-left: 0;
+	width: auto;
+}
+
+        /* css for buttons */
+.cbtn {
+      margin-bottom: 6%;
+      width: 30%;
+      margin-left: 25%;
+
+}
+
+
+
+.cbtn1 {
+	background-color: transparent;
+	border: solid .2em orange;
+	color: orange;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: .4em 1em;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-top: .5em;
+}
+
+.cbtn2 {
+	background-color: transparent;
+	border: solid .2em #D90429;
+	color: #D90429;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding: .4em 1em;
+	font-weight: bolder;
+	font-size: 1.2em;
+	margin-top: .5em;
+}
+
+
+.cbtn2:hover {
+	color: yellow;
+	background-color: transparent;
+}
+
+.cbtn2:active {
+	color: orange;
+	background-color: transparent;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cbtn1:hover {
+	color: #D90429;
+	background-color: transparent;
+}
+
+.cbtn1:active {
+	color: #D90429;
+	background-color: transparent;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+   
+   /*---------------------------------------*/
+
+
+/*____________________________________________________________________________________-*/
+>>>>>>> parent of fc72474... contact page modified
