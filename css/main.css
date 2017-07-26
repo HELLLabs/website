@@ -25,6 +25,19 @@ body {
 	height: 100%;
 	position: absolute;
 }
+/*links styling here*/
+a.front-a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 4px solid #FF9F1C;
+  display: inline-block;
+  height: 0.9em;
+
+}
+a.front-a:hover {
+  background: #FF9F1C;
+
+}
 
 .wrapper {
 	width: 85%;
