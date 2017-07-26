@@ -192,7 +192,9 @@ li {
 	background-color: #D90429;
 	display: block;
 	color: white;
-	padding: .2em 1em;
+	display: flex;
+  align-items: center;
+  height: 100%;
 	position: absolute;
 	right: 0;
 	visibility: hidden;
@@ -420,8 +422,6 @@ li {
 	}
 
 }
-<<<<<<< HEAD
-=======
 /*style for all pages*/
 
 .body {
@@ -480,14 +480,14 @@ li {
 /*style for Contact us page */
 
 .c2{
-	
+
 	width: 80%;
 	height: auto;
 	float: left;
 }
 
 .c3{
-	
+
 	width: 20%;
 	height: auto;
 	float: left;
@@ -496,7 +496,7 @@ li {
 }
 
 .c4{
-	
+
 	width: 65%;
 	height: auto;
 	padding: 1em;
@@ -580,9 +580,8 @@ li {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-   
+
    /*---------------------------------------*/
 
 
 /*____________________________________________________________________________________-*/
->>>>>>> parent of fc72474... contact page modified
