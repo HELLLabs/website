@@ -18,6 +18,7 @@ body {
 
 .jumbo-text {
   color: #D90429;
+  width: 90%;
 }
 
 .in-body aside span {
@@ -33,6 +34,7 @@ i.fa.fa-map-marker {
 	width: 85%;
 	margin: 0 auto;
 	position: relative;
+	height: auto;
 }
 
 figure {
@@ -150,7 +152,7 @@ li {
 
 .main {
 	padding: 2em 0;
-  margin-bottom: 5em;
+  margin-bottom: 6em;
 }
 
 .main-container {
@@ -321,95 +323,361 @@ li {
 }
 
 /* --------------------------
+/* Form styling below
+/* -------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#feedback-page{
+  text-align:center;
+}
+
+#form-main{
+  width:100%;
+  padding-top:0px;
+}
+
+#form-div {
+  background:transparent;
+  padding-top:2em;
+  padding-bottom:3em;
+  width: 90%;
+  margin-top:2em;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  margin-bottom: 2em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.feedback-input {
+  color:#3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #D90429;
+  color: #D90429;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  color:#30aed6;
+  border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#contact{
+  background-image: url(http://rexkirby.com/kirbyandson/images/phone.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#contact:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/phone.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color:white;
+}
+
+#button1 {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float:left;
+  width: 6em;
+  border: #FF9F1C solid 4px;
+  cursor:pointer;
+  background-color: transparent;
+  color:#FF9F1C;
+  font-size:1.5em;
+  padding-top:.3em;
+  padding-bottom:.3em;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  margin-right: 1em;
+}
+
+#button1:hover{
+  background-color: #FF9F1C;
+  color: black;
+}
+  
+#button2 {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float:left;
+  width: 6em;
+  border: #D90429 solid 4px;
+  cursor:pointer;
+  background-color: transparent;
+  color:#D90429;
+  font-size:1.5em;
+  padding-top:.3em;
+  padding-bottom:.3em;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button2:hover{
+  background-color: #D90429;
+  color: white;
+}
+
+.submit:hover {
+  color: #3498db;
+}
+
+/* --------------------------
 /* Media queries below
 /* -------------------------*/
 
+@media only screen and (min-width: 1520px) {
 
-@media only screen and (max-width: 1000px) {
-	.header {
+  article {
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 1154px) and (min-width: 1001px) {
+  
+  .jumbo-text {
+    width: 95%;
+  }
+  
+  h1 {
+    font-size: 8em;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 701px) {
+  
+  .header {
     width: auto;
     height: 10%;
-	}
+  }
 
-	h1 {
-		font-size: 3.2em;
-		line-height: 1em;
-	}
+  h1 {
+    font-size: 6em;
+    line-height: 1em;
+  }
+  
+  .jumbo-text {
+    width: 100%;
+  }
 
-	.main-container {
-		display: flex;
-		padding: .1em .1em;
-		height: 80vh;
-	}
+  .main-container {
+    display: flex;
+    padding: .1em .1em;
+    height: 90%;
+  }
 
   .main-container header h1:first-child {
     word-spacing: normal;
   }
 
-	.footer-menu {
-		width:100%;
-		background: white;
-	}
+  .footer-menu {
+    width:100%;
+    background: white;
+  }
 
-	button {
-		margin-bottom: 4em;
-		margin-left: 2em;
+  button {
+    margin-bottom: 4em;
+    margin-left: 2em;
     margin-left: 13%;
-	}
+  }
 
   .active {
-  	display: none;
+    display: none;
   }
 
   .overlay a {
-  	font-size: .3em
+    font-size: .3em
   }
 
   .overlay .closebtn {
-  	font-size: 3em;
-  	top: .2em;
-  	right: 5%;
-  	font-weight: 900;
-		z-index: 2;
-		position: absolute;
+    font-size: 3em;
+    top: .2em;
+    right: 5%;
+    font-weight: 900;
+    z-index: 2;
+    position: absolute;
   }
 
  .nav {
-		display: none;
+    display: none;
  }
 
  .mobile-menu {
-		visibility: visible;
-		background: #D90429;
-	}
-	.footer-menu nav {
-		visibility: hidden;
-	}
+    visibility: visible;
+    background: #D90429;
+  }
+
+  .footer-menu nav {
+    visibility: hidden;
+  }
+
   p {
     width: 80%;
   }
+  
+  #form-div {
+  background:transparent;
+  padding-top:2em;
+  padding-bottom:3em;
+  width: 100%;
+  margin-top:2em;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  margin-bottom: 2em;
+}
 
 }
 
 /*end */
-@media only screen and (max-width: 700px) {
-	.footer-menu nav {
-		visibility: hidden;
-	}
+
+@media only screen and (max-width: 1000px) and (min-width: 880px) {
+  
+  .jumbo-text {
+    width: 85%;
+  }
+  
+  h1 {
+    font-size: 6em;
+  }
+}
+
+
+@media only screen and (max-width: 700px) and (min-width: 601px) {
+  .footer-menu nav {
+    visibility: hidden;
+  }
   p {
     width: 100%;
     margin-left: 0;
   }
+
   button {
     margin-left: 0;
   }
+
   .main-container header h1:first-child {
     word-spacing: 10em;
   }
+
   .main-container {
     display: flex;
     padding: .1em .1em;
     height: 90%;
+  }
+
+  .in-body {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 6em;
+  }
+  
+  .jumbo-text {
+    width: 75%;
+  }
+
+  #form-div {
+    background:transparent;
+    padding-left:.5em;
+    padding-right:.5em;
+    padding-top:1em;
+    padding-bottom:3em;
+    width: 100%;
+    margin-top:2em;
+  }
+
+  article {
+    margin-top: 1em;
+  }
+
+
+  #button1 {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-right: 0em;
+  }
+
+  #button2 {
+    width: 100%;
+  }
+
+  aside {
+    margin-top: 1em;
   }
 
 }
@@ -431,21 +699,54 @@ li {
   }
 
   h1 {
-		font-size: 2.5em;
-		line-height: 1em;
-	}
+    font-size: 4em;
+    line-height: 1em;
+  }
+
+  .jumbo-text {
+  width: 60%;
+}
 
   button {
     margin-left: 0;
   }
-	.main-container {
-		display: flex;
-		padding: .1em .1em;
-		height: 90%;
-	}
+  
+  .main-container {
+    display: flex;
+    padding: .1em .1em;
+    height: 90%;
+  }
+  
+  .in-body {
+    flex-direction: column;
+  }
 
+  #form-div {
+    background:transparent;
+    padding-left:.5em;
+    padding-right:.5em;
+    padding-top:1em;
+    padding-bottom:3em;
+    width: 100%;
+    margin-top:2em;
+  }
+
+  article {
+    margin-top: 1em;
+  }
+
+
+  #button1 {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-right: 0em;
+  }
+
+  #button2 {
+    width: 100%;
+  }
+
+  aside {
+    margin-top: 1em;
+  }
 }
-
-/* --------------------------
-/* Form styling below
-/* -------------------------*/
