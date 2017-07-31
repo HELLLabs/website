@@ -367,7 +367,7 @@ li {
 }
 
 /*end */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 	.footer-menu nav {
 		visibility: hidden;
 	}
@@ -420,78 +420,3 @@ li {
 	}
 
 }
-
-/*style for About us page */
-
-h1
-{
-	font-size: 7rem;
-	font-family: Georgia;
-	text-align: left;
-	font-weight: 800;
-	line-height: 1em;
-	width: 50%;
-	margin-left:8%;
-	font-family: 'Montserrat',sans-serif;
-}
-p
-{
-	width: 65%;
-	font-size: 1em;
-	text-align: left;
-	line-height: 1em;
-	margin-left: 23%;
-	margin-top: -.25%;
-
-}
-.abc
-{
-	text-align: left;
-	width: 25%;
-	float: left;
-	padding: 1em;
-	margin-left: 8%;
-	display: inline-block;
-}
-.about
-{
-	width: 75%;
-	
-}
-.about-container
-{
-	width: 65%;
-	margin-left: 23%;
-}
-.about-btn
-{
-	margin-left: 23%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*_________________________________________________________*/
-
-
-/*style for Contact us page */
-
-
-
-
-
-
-
-
-
-
-
-/*_________________________________________________________*/
