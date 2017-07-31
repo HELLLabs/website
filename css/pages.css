@@ -446,14 +446,13 @@ input:focus, textarea:focus {
 #button1 {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   float:left;
-  width: 6em;
+  width: auto;
   border: #FF9F1C solid 4px;
   cursor:pointer;
   background-color: transparent;
   color:#FF9F1C;
   font-size:1.5em;
-  padding-top:.3em;
-  padding-bottom:.3em;
+  padding:.3em 1em;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -470,14 +469,13 @@ input:focus, textarea:focus {
 #button2 {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   float:left;
-  width: 6em;
+  width: auto;
   border: #D90429 solid 4px;
   cursor:pointer;
   background-color: transparent;
   color: #D90429;
   font-size: 1.5em;
-  padding-top:.3em;
-  padding-bottom:.3em;
+  padding:.3em 1em;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -511,6 +509,11 @@ input:focus, textarea:focus {
     font-size: 8em;
   }
 
+  .mainabout h1.jumbo-text {
+    width: 60%;
+    font-size: 8.2em;
+  }
+
 }
 
 @media only screen and (max-width: 1154px) and (min-width: 1001px) {
@@ -519,9 +522,16 @@ input:focus, textarea:focus {
     width: 94%;
   }
 
-  h1 {
+   h1 {
     font-size: 8em;
   }
+
+  .mainabout h1.jumbo-text {
+    width: 90%;
+    font-size: 8.2em;
+  }
+
+ 
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 701px) {
@@ -538,6 +548,11 @@ input:focus, textarea:focus {
 
   .jumbo-text {
     width: 100%;
+  }
+
+  .mainabout h1.jumbo-text {
+    width: 95%;
+    font-size: 6.2em;
   }
 
   .main-container {
@@ -620,6 +635,11 @@ input:focus, textarea:focus {
     font-size: 6em;
   }
 
+   .mainabout h1.jumbo-text {
+    width: 80%;
+    font-size: 6.2em;
+  }
+
 
   .footer-menu {
     width:100%;
@@ -687,6 +707,11 @@ input:focus, textarea:focus {
     width: 65%;
   }
 
+   .mainabout h1.jumbo-text {
+    width: 60%;
+    font-size: 6.2em;
+  }
+
   #form-div {
     background:transparent;
     padding-left:.5em;
@@ -701,6 +726,9 @@ input:focus, textarea:focus {
     margin-top: 1em;
   }
 
+.mainabout article {
+  margin-top: 1em;
+}
 
   #button1 {
     width: 100%;
@@ -716,6 +744,9 @@ input:focus, textarea:focus {
     margin-top: 1em;
   }
 
+.mainabout aside {
+  margin-top: 1em;
+}
 
   .footer-menu {
     width:100%;
@@ -775,6 +806,11 @@ input:focus, textarea:focus {
   width: 50%;
 }
 
+ .mainabout h1.jumbo-text {
+    width: 45%;
+    font-size: 4.2em;
+  }
+
   button {
     margin-left: 0;
   }
@@ -803,6 +839,10 @@ input:focus, textarea:focus {
     margin-top: 1em;
   }
 
+  .mainabout article {
+  margin-top: 1em;
+}
+
 
   #button1 {
     width: 100%;
@@ -816,6 +856,10 @@ input:focus, textarea:focus {
 
   aside {
     margin-top: 1em;
+  }
+
+  .mainabout aside {
+  margin-top: 1em;
   }
 
   
@@ -849,4 +893,29 @@ input:focus, textarea:focus {
   .footer-menu nav {
     visibility: hidden;
   }
+}
+
+
+
+/*====----about page----====*/
+
+.mainabout {
+  padding: 2em 0;
+  margin-bottom: 6em;
+}
+
+.mainabout h1.jumbo-text {
+  color: #D90429;
+  width: 80%;
+  margin-top: .5em;
+  line-height: 1em;
+}
+
+.mainabout aside {
+  width: 40%;
+}
+
+.mainabout article {
+  margin-top: -7em;
+  margin-left: 2em;
 }

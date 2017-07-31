@@ -72,7 +72,7 @@ p {
 	font-weight: normal;
 }
 
-button {
+#button {
 	background-color: transparent;
 	border: solid .2em #FF9F1C;
 	color: #FF9F1C;
@@ -82,9 +82,12 @@ button {
 	font-size: 1.2em;
 	margin-left: 13%;
 	margin-top: .5em;
+	cursor: pointer;
+	width: auto;
+	transition: all 0.3s;
 }
 
-button:hover {
+#button:hover {
 	color: black;
 	background-color: #FF9F1C;
 	/*box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.31);*/
@@ -326,7 +329,7 @@ li {
 		background: white;
 	}
 
-	button {
+	#button {
 		margin-bottom: 4em;
 		margin-left: 2em;
     margin-left: 13%;
@@ -375,7 +378,8 @@ li {
     width: 100%;
     margin-left: 0;
   }
-  button {
+
+  #button {
     margin-left: 0;
   }
   .main-container header h1:first-child {
@@ -410,7 +414,7 @@ li {
 		line-height: 1em;
 	}
 
-  button {
+  #button {
     margin-left: 0;
   }
 	.main-container {
