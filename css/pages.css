@@ -16,15 +16,31 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.back-image {
+  background: url(../img/page/contact-back.svg) no-repeat;
+  position: absolute;
+  height: 40em;
+  width: 40em;
+  background-size: 40em 40em;
+  z-index: -10;
+  right: 4em;
+  top: 2em;
+  opacity: 0.7;
+}
+
 .jumbo-text {
   color: #D90429;
-  width: 90%;
+  width: 80%;
 }
 
 .in-body aside span {
   margin-left: 1em;
   width: 80%;
   display: inline-block;
+}
+
+.in-body aside p:first-child span {
+  width: 50%;
 }
 
 i.fa.fa-map-marker {
@@ -326,35 +342,17 @@ li {
 /* Form styling below
 /* -------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-#feedback-page{
-  text-align:center;
-}
-
-#form-main{
-  width:100%;
-  padding-top:0px;
-}
-
 #form-div {
-  background:transparent;
-  padding-top:2em;
-  padding-bottom:3em;
+  background: transparent;
+  padding: 2em 0;
   width: 90%;
-  margin-top:2em;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  margin-bottom: 2em;
-  padding-left: .5em;
-  padding-right: .5em;
+  margin: 1em 0;
 }
 
 .feedback-input {
   color:#3c3c3c;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 1em;
   border-radius: 0;
   line-height: 22px;
   background-color: #fbfbfb;
@@ -372,7 +370,7 @@ li {
   background: #fff;
   box-shadow: 0;
   border: 3px solid #D90429;
-  color: #D90429;
+  color: black;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
@@ -384,14 +382,14 @@ li {
 
 /* Icons ---------------------------------- */
 #name{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-image: url(../img/icons/contacts.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
 }
 
 #name:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-image: url(../img/icons/contacts.svg);
   background-size: 30px 30px;
   background-position: 8px 5px;
   background-position: 11px 8px;
@@ -399,35 +397,35 @@ li {
 }
 
 #email{
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-image: url(../img/icons/mail.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
 }
 
 #email:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-image: url(../img/icons/mail.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
 }
 
 #contact{
-  background-image: url(http://rexkirby.com/kirbyandson/images/phone.svg);
+  background-image: url(../img/icons/phone-call.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
 }
 
 #contact:focus{
-  background-image: url(http://rexkirby.com/kirbyandson/images/phone.svg);
+  background-image: url(../img/icons/phone-call.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
 }
 
 #comment{
-  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-image: url(../img/icons/message.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
@@ -468,7 +466,7 @@ input:focus, textarea:focus {
   background-color: #FF9F1C;
   color: black;
 }
-  
+
 #button2 {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   float:left;
@@ -476,8 +474,8 @@ input:focus, textarea:focus {
   border: #D90429 solid 4px;
   cursor:pointer;
   background-color: transparent;
-  color:#D90429;
-  font-size:1.5em;
+  color: #D90429;
+  font-size: 1.5em;
   padding-top:.3em;
   padding-bottom:.3em;
   -webkit-transition: all 0.3s;
@@ -508,18 +506,18 @@ input:focus, textarea:focus {
 }
 
 @media only screen and (max-width: 1154px) and (min-width: 1001px) {
-  
+
   .jumbo-text {
     width: 95%;
   }
-  
+
   h1 {
     font-size: 8em;
   }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 701px) {
-  
+
   .header {
     width: auto;
     height: 10%;
@@ -529,7 +527,7 @@ input:focus, textarea:focus {
     font-size: 6em;
     line-height: 1em;
   }
-  
+
   .jumbo-text {
     width: 100%;
   }
@@ -588,7 +586,7 @@ input:focus, textarea:focus {
   p {
     width: 80%;
   }
-  
+
   #form-div {
   background:transparent;
   padding-top:2em;
@@ -605,11 +603,11 @@ input:focus, textarea:focus {
 /*end */
 
 @media only screen and (max-width: 1000px) and (min-width: 880px) {
-  
+
   .jumbo-text {
     width: 85%;
   }
-  
+
   h1 {
     font-size: 6em;
   }
@@ -646,7 +644,7 @@ input:focus, textarea:focus {
   h1 {
     font-size: 6em;
   }
-  
+
   .jumbo-text {
     width: 75%;
   }
@@ -710,13 +708,13 @@ input:focus, textarea:focus {
   button {
     margin-left: 0;
   }
-  
+
   .main-container {
     display: flex;
     padding: .1em .1em;
     height: 90%;
   }
-  
+
   .in-body {
     flex-direction: column;
   }
