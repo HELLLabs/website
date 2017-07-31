@@ -30,7 +30,7 @@ body {
 
 .jumbo-text {
   color: #D90429;
-  width: 80%;
+  width: 90%;
 }
 
 .in-body aside span {
@@ -501,14 +501,22 @@ input:focus, textarea:focus {
 @media only screen and (min-width: 1520px) {
 
   article {
-    margin-top: 2em;
   }
+
+   .jumbo-text {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 8em;
+  }
+
 }
 
 @media only screen and (max-width: 1154px) and (min-width: 1001px) {
 
   .jumbo-text {
-    width: 95%;
+    width: 94%;
   }
 
   h1 {
@@ -542,11 +550,6 @@ input:focus, textarea:focus {
     word-spacing: normal;
   }
 
-  .footer-menu {
-    width:100%;
-    background: white;
-  }
-
   button {
     margin-bottom: 4em;
     margin-left: 2em;
@@ -555,6 +558,11 @@ input:focus, textarea:focus {
 
   .active {
     display: none;
+  }
+
+  .footer-menu {
+    width:100%;
+    background: white;
   }
 
   .overlay a {
@@ -611,13 +619,43 @@ input:focus, textarea:focus {
   h1 {
     font-size: 6em;
   }
+
+
+  .footer-menu {
+    width:100%;
+    background: white;
+  }
+
+  .overlay a {
+    font-size: .3em
+  }
+
+  .overlay .closebtn {
+    font-size: 3em;
+    top: .2em;
+    right: 5%;
+    font-weight: 900;
+    z-index: 2;
+    position: absolute;
+  }
+
+ .nav {
+    display: none;
+ }
+
+ .mobile-menu {
+    visibility: visible;
+    background: #D90429;
+  }
+
+  .footer-menu nav {
+    visibility: hidden;
+  }
 }
 
 
 @media only screen and (max-width: 700px) and (min-width: 601px) {
-  .footer-menu nav {
-    visibility: hidden;
-  }
+
   p {
     width: 100%;
     margin-left: 0;
@@ -646,7 +684,7 @@ input:focus, textarea:focus {
   }
 
   .jumbo-text {
-    width: 75%;
+    width: 65%;
   }
 
   #form-div {
@@ -678,6 +716,38 @@ input:focus, textarea:focus {
     margin-top: 1em;
   }
 
+
+  .footer-menu {
+    width:100%;
+    background: white;
+  }
+
+  .overlay a {
+    font-size: .3em
+  }
+
+  .overlay .closebtn {
+    font-size: 3em;
+    top: .2em;
+    right: 5%;
+    font-weight: 900;
+    z-index: 2;
+    position: absolute;
+  }
+
+ .nav {
+    display: none;
+ }
+
+ .mobile-menu {
+    visibility: visible;
+    background: #D90429;
+  }
+
+  .footer-menu nav {
+    visibility: hidden;
+  }
+
 }
 
 
@@ -702,7 +772,7 @@ input:focus, textarea:focus {
   }
 
   .jumbo-text {
-  width: 60%;
+  width: 50%;
 }
 
   button {
@@ -746,5 +816,37 @@ input:focus, textarea:focus {
 
   aside {
     margin-top: 1em;
+  }
+
+  
+  .footer-menu {
+    width:100%;
+    background: white;
+  }
+
+  .overlay a {
+    font-size: .3em
+  }
+
+  .overlay .closebtn {
+    font-size: 3em;
+    top: .2em;
+    right: 5%;
+    font-weight: 900;
+    z-index: 2;
+    position: absolute;
+  }
+
+ .nav {
+    display: none;
+ }
+
+ .mobile-menu {
+    visibility: visible;
+    background: #D90429;
+  }
+
+  .footer-menu nav {
+    visibility: hidden;
   }
 }
