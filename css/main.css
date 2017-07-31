@@ -214,7 +214,7 @@ li {
 .overlay-content {
   position: relative;
   top: 15%;
-  width: 100%;
+   width: 100%;
   text-align: center;
   margin-top: 1.275em;
   font-weight: 900;
@@ -419,9 +419,4 @@ li {
 		height: 90%;
 	}
 
-}
-/*style for all pages*/
-
-.body {
-	background-image: linear-gradient(-180deg, #F0F0F0 0%, #FFFFFF 100%);
 }
