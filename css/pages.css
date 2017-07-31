@@ -40,8 +40,14 @@ body {
 }
 
 .in-body aside p:first-child span {
-  width: 50%;
+  width: 60%;
 }
+
+
+.in-body>aside {
+  margin-right: 2em;
+}
+
 
 i.fa.fa-map-marker {
   vertical-align: top;
