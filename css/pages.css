@@ -498,14 +498,37 @@ input:focus, textarea:focus {
   color: #3498db;
 }
 
+
+
+/*====----about page----====*/
+
+.mainabout {
+  padding: 2em 0;
+  margin-bottom: 6em;
+}
+
+.mainabout h1.jumbo-text {
+  color: #D90429;
+  width: 65%;
+  margin-top: .5em;
+  line-height: 1em;
+}
+
+.mainabout aside {
+  width: 55%;
+  margin-right: 1.5em;
+}
+
+.mainabout article {
+  margin-top: -6em;
+}
+
 /* --------------------------
 /* Media queries below
 /* -------------------------*/
 
-@media only screen and (min-width: 1520px) {
 
-  article {
-  }
+@media only screen and (min-width: 1520px) {
 
    .jumbo-text {
     width: 70%;
@@ -520,7 +543,23 @@ input:focus, textarea:focus {
     font-size: 8.2em;
   }
 
+  .mainabout aside {
+   width: 40%;
+  }
+
 }
+
+@media only screen and (min-width: 1820px) {
+  .mainabout h1.jumbo-text {
+    width: 34%;
+    font-size: 8.2em;
+  }
+
+  .mainabout aside {
+   width: 25%;
+  }
+
+}  
 
 @media only screen and (max-width: 1154px) and (min-width: 1001px) {
 
@@ -537,7 +576,9 @@ input:focus, textarea:focus {
     font-size: 8.2em;
   }
 
- 
+  .mainabout aside {
+   width: 55%;
+  }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 701px) {
@@ -557,7 +598,7 @@ input:focus, textarea:focus {
   }
 
   .mainabout h1.jumbo-text {
-    width: 95%;
+    width: 85%;
     font-size: 6.2em;
   }
 
@@ -617,15 +658,19 @@ input:focus, textarea:focus {
   }
 
   #form-div {
-  background:transparent;
-  padding-top:2em;
-  padding-bottom:3em;
-  width: 100%;
-  margin-top:2em;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  margin-bottom: 2em;
-}
+    background:transparent;
+    padding-top:2em;
+    padding-bottom:3em;
+    width: 100%;
+    margin-top:2em;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    margin-bottom: 2em;
+  }
+
+  .mainabout aside {
+   width: 55%;
+  }
 
 }
 
@@ -642,7 +687,7 @@ input:focus, textarea:focus {
   }
 
    .mainabout h1.jumbo-text {
-    width: 80%;
+    width: 60%;
     font-size: 6.2em;
   }
 
@@ -899,29 +944,4 @@ input:focus, textarea:focus {
   .footer-menu nav {
     visibility: hidden;
   }
-}
-
-
-
-/*====----about page----====*/
-
-.mainabout {
-  padding: 2em 0;
-  margin-bottom: 6em;
-}
-
-.mainabout h1.jumbo-text {
-  color: #D90429;
-  width: 80%;
-  margin-top: .5em;
-  line-height: 1em;
-}
-
-.mainabout aside {
-  width: 40%;
-}
-
-.mainabout article {
-  margin-top: -7em;
-  margin-left: 2em;
 }
