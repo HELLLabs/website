@@ -531,7 +531,7 @@ input:focus, textarea:focus {
 @media only screen and (min-width: 1520px) {
 
    .jumbo-text {
-    width: 70%;
+    width: 57%;
   }
 
   h1 {
@@ -539,7 +539,7 @@ input:focus, textarea:focus {
   }
 
   .mainabout h1.jumbo-text {
-    width: 60%;
+    width: 40%;
     font-size: 8.2em;
   }
 
@@ -549,7 +549,12 @@ input:focus, textarea:focus {
 
 }
 
-@media only screen and (min-width: 1820px) {
+@media only screen and (min-width: 1960px) {
+  
+   .jumbo-text {
+    width: 36%;
+  }
+
   .mainabout h1.jumbo-text {
     width: 34%;
     font-size: 8.2em;
