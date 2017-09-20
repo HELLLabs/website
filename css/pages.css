@@ -519,6 +519,66 @@ input:focus, textarea:focus {
   margin-right: 1.5em;
 }
 
+
+/* styling portfolio */
+
+.mainport {
+  padding: 2em 0;
+  margin-bottom: 6em;
+  width: 100%;
+}
+
+.mainport h1.jumbo-text {
+  color: #D90429;
+  width: 65%;
+  margin-top: .1em;
+  line-height: 1em;
+  font-size: 7em;
+}
+
+.mainport article  {
+  margin-top: -5em;
+  width: 95%;
+  width: 13%;
+}
+
+.mainport article p {
+  margin-left: 13%;
+  width: 70%;
+}
+
+.mainport article h4 {
+  color: #FF9F1C;
+  margin-top: 5em;
+}
+
+hr {
+  height: .3em;
+  color: #FF9F1C;
+  background: #FF9F1C;
+}
+
+.flex-container {
+  margin-top: 1em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.flex-item {
+    background-color: black;
+    width: 30%;
+    height: 15em;
+    margin: .5em;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+}
+
 .mainabout article {
   margin-top: -6em;
 }
@@ -527,6 +587,37 @@ input:focus, textarea:focus {
 /* Media queries below
 /* -------------------------*/
 
+
+@media only screen and (max-width: 1920px) and (min-width: 1501px) {
+
+/*portfolio*/
+  .flex-container {
+  flex-direction: column; 
+  }
+
+  .flex-item {
+    width: 90%;
+    height: 30em;
+    margin: .5em;
+  }
+
+  .mainport article {
+  margin-top: 6em;
+  width: 100%;
+  }
+
+  .mainport article p {
+  margin-left: 0;
+  width: 100%;
+}
+  .mainport h1.jumbo-text {
+    font-size: 4em;
+    width: 50%;
+  }
+
+  /*end of portfolio*/
+
+}
 
 @media only screen and (min-width: 1520px) {
 
@@ -547,6 +638,10 @@ input:focus, textarea:focus {
    width: 40%;
   }
 
+  .mainport h1.jumbo-text {
+    font-size: 4em;
+  }
+
 }
 
 @media only screen and (min-width: 1960px) {
@@ -562,6 +657,10 @@ input:focus, textarea:focus {
 
   .mainabout aside {
    width: 25%;
+  }
+
+  .mainport h1.jumbo-text {
+    font-size: 4em;
   }
 
 }  
@@ -583,6 +682,10 @@ input:focus, textarea:focus {
 
   .mainabout aside {
    width: 55%;
+  }
+
+  .mainport h1.jumbo-text {
+    font-size: 4em;
   }
 }
 
@@ -677,6 +780,31 @@ input:focus, textarea:focus {
    width: 55%;
   }
 
+
+/*portfolio*/
+  .flex-container {
+  flex-direction: row; 
+  }
+
+  .flex-item {
+    width: 90%;
+    height: 15em;
+    margin: .5em;
+  }
+
+ 
+
+  .mainport article p {
+  margin-left: 0;
+  width: 100%;
+}
+
+  .mainport h1.jumbo-text {
+    font-size: 6em;
+    width: 50%;
+  }
+  /*end of portfolio*/
+
 }
 
 /*end */
@@ -727,6 +855,34 @@ input:focus, textarea:focus {
   .footer-menu nav {
     visibility: hidden;
   }
+
+  /*portfolio*/
+  .flex-container {
+  flex-direction: row; 
+  }
+
+  .flex-item {
+    width: 90%;
+    height: 15em;
+    margin: .5em;
+  }
+
+  .mainport article {
+  margin-top: -5em;
+  width: 100%;
+  margin-left: 13%;
+  }
+
+  .mainport article p {
+  margin-left: 13%;
+  width: 100%;
+}
+  .mainport h1.jumbo-text {
+    font-size: 6em;
+    width: 50%;
+  }
+  /*end of portfolio*/
+
 }
 
 
@@ -834,6 +990,32 @@ input:focus, textarea:focus {
   .footer-menu nav {
     visibility: hidden;
   }
+
+
+/*portfolio*/
+  .flex-container {
+  flex-direction: column; 
+  }
+
+  .flex-item {
+    width: 90%;
+    height: 15em;
+    margin: .5em;
+  }
+
+  .mainport article {
+  margin-top: 1em;
+  width: 100%;
+  }
+
+  .mainport article p {
+  margin-left: 0;
+  width: 80%;
+}
+  .mainport h1.jumbo-text {
+    font-size: 4em;
+  }
+  /*end of portfolio*/
 
 }
 
@@ -949,64 +1131,35 @@ input:focus, textarea:focus {
   .footer-menu nav {
     visibility: hidden;
   }
-}
 
-/* styling portfolio */
+/*portfolio*/
+  .flex-container {
+  flex-direction: column; 
+  }
 
-.mainport {
-  padding: 2em 0;
-  margin-bottom: 6em;
-  width: 100%;
-}
-
-.mainport h1.jumbo-text {
-  color: #D90429;
-  width: 65%;
-  margin-top: .1em;
-  line-height: .8em;
-  font-size: 7em;
-}
-
-.mainport article  {
-  margin-top: -5em;
-  width: 100%;
-}
-
-.mainport article p {
-  margin-left: 25%;
-  width: 70%;
-}
-
-.mainport article h4 {
-  color: #FF9F1C;
-  margin-top: 5em;
-}
-
-hr {
-  height: .3em;
-  color: #FF9F1C;
-  margin-left: 20%;
-  margin-top: -.8em;
-  background: #FF9F1C;
-}
-
-.flex-container {
-  margin-top: 1em;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    background-color: transparent;
-}
-
-.flex-item {
-    background-color: black;
-    width: 30%;
+  .flex-item {
+    width: 90%;
     height: 15em;
     margin: .5em;
+  }
+
+  .mainport article {
+  margin-top: 1em;
+  width: 100%;
+  }
+
+  .mainport article p {
+  margin-left: 0;
+  width: 100%;
 }
+
+  .mainport h1.jumbo-text {
+    font-size: 4em;
+  }
+  /*end of portfolio*/
+}
+
+
 
 
 
